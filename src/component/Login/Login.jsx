@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { auth, signInWithGoogle } from '../firebase/firebase';
+import { auth, signInWithGoogle } from '../../firebase/firebase';
 //Возможно проблема из за другой структуры папок?
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { useAuthState } from 'react-firebase-hooks/auth';
